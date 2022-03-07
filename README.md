@@ -1,10 +1,19 @@
-# SuperResolution using GAN
+# Satellite SuperResolution using GAN / 4x Improvement
 
 ### Model Training and Architecture
 
-This a slightly modified version of `SRGAN` model as it does not have the `BatchNormalization` layer as mentioned in the original paper. The training happens in two stages:
+This a slightly modified version of `SRGAN` model as it does not have the `BatchNormalization` layer as mentioned in the original paper. The training happens in two stages. The data preprocessing and metrics have been modified to support satellite reflectance data values (0-1) instead of traditional 0-255 range.
 
-The model supports only `2x` and `4x` upscaling of PNG Images as it uses feature maps of VGG network in the final stage
+The model supports only `2x`, `3x` and `4x` upscaling of TIF Images however it uses feature maps of VGG network in the final stage
+
+### Results
+
+**AGRI**
+![AGRI Image](results/agri.PNG)
+
+**URBAN**
+![Urbabn Image](results/urban.PNG)
+
 
 1. **PSNR Training**
 

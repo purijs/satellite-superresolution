@@ -1,12 +1,12 @@
 # ignored folders
 datasets/*
-data/*
-experiments/*
-results/*
+# data/*
+# experiments/*
+# results/*
 tb_logger/*
 wandb/*
 tmp/*
-tiffresults/*
+# tiffresults/*
 
 .vscode
 .idea
@@ -16,7 +16,7 @@ version.py
 
 # ignored files with suffix
 *.html
-*.png
+# *.png
 *.jpeg
 *.jpg
 *.gif
