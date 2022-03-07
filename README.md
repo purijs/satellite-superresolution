@@ -23,7 +23,7 @@ First very deep ResNet architecture using the concept of GANs to form a perceptu
 
 Traditional SRGAN model is used with `L1 Loss` for training. The backend used is VGG-19
 
-![GAN Image](gan.PNG)
+![GAN Image](gan.png)
 
 ### Data
 
